@@ -1,3 +1,8 @@
+
+/* Example Usage of the procedure
+	CALL silver.load_silver()
+*/
+
 CREATE PROCEDURE silver.load_silver()
 LANGUAGE plpgsql
 AS $$
@@ -205,4 +210,4 @@ BEGIN
 END;
 $$;
 
-CALL silver.load_silver()
+
