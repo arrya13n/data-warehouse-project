@@ -1,5 +1,12 @@
 
-/* Example Usage of the procedure
+/*
+  Purpose of this Script:
+	This script performs ETL(Extract, Transform, Load) process to populate 'silver' schema tables from 'bronze' schema.
+  Actions Performed:
+	- Truncate silver tables.
+	- Insert transformed and cleaned data from 'bronze' schema tables
+
+  Example Usage of the procedure
 	CALL silver.load_silver()
 */
 
